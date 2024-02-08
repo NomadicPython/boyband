@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Set the background image for the body element */
+body {
+  background-image: url("DAchouffe-La-Chouffe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Create a menu container with a fixed position and a transparent background */
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+/* Style the menu items as links with white text and no underline */
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+/* Change the color of the menu items on hover */
+.menu a:hover {
+  color: yellow;
+}
