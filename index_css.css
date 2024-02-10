@@ -5,6 +5,7 @@
 body {
   background-image: url("DAchouffe-La-Chouffe.jpg");
   background-size: cover;
+	background-blend-mode: hard-light;
   background-repeat: no-repeat;
 }
 
