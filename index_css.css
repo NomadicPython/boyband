@@ -78,9 +78,11 @@ footer {
 
 .gallery {
 	margin: 5px;
-/*	border: 1px solid #ccc;*/
+	border: 1px solid #ccc;
 	float: left;
 	height: 180px;
+	margin-bottom: 50px;
+  margin
 }
 
 .gallery:hover {
@@ -91,6 +93,11 @@ footer {
 	height: 100%;
 }
 .desc {
-	padding: 15px;
+	padding: 5px;
 	text-align: center;
+}
+ .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
